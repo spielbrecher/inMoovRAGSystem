@@ -7,7 +7,7 @@ class MainFrame:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("inMoov RAG System")
+        self.root.title("inMoov2 RAG System")
 
         # Создание полей для ввода и вывода текста
         self.input_text = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=40, height=10)
