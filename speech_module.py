@@ -1,3 +1,13 @@
+import vosk
+import wave
+import sys
+from vosk import Model, KaldiRecognizer, SetLogLevel
+import argparse
+import queue
+import sys
+import sounddevice as sd
+
+
 q = queue.Queue()
 
 def int_or_str(text):
